@@ -8,7 +8,7 @@ By Hans Lawrenz on 2014-03-20
 
 # The Problem
 
-You've just finished writing an awesome program, but it's slow as a molasses.
+You've just finished writing an awesome program, but it's slow as molasses.
 What do you do now?
 
 Your first instinct might be to dig in and start slicing and dicing your code.
@@ -39,7 +39,7 @@ find out where you need to focus your optimization efforts.
 # First Steps
 
 If you’re dealing with a simple program, you might be happy with just running
-the your program cProfile and looking over the results it prints out. For example:
+your program cProfile and looking over the results it prints out. For example:
 
        python -m cProfile radscript.py
 
@@ -168,22 +168,4 @@ to determine whether or not a different way of doing things might be quicker. Fo
 
 
 ---
-
-# Resources:
-
-
-
-
----
-
-Examples:
-Bulk loading data into the database
-Different types of dict keys
-Using more appropriate data structures
-Using list comprehensions
-
-
-Other topics:
-Memory profiling
-
 

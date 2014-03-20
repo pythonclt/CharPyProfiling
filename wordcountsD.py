@@ -6,11 +6,11 @@ import re
 
 def word_gen(fn):
     with open(fn, 'rb') as text:
-        splitter = re.compile(r'[\s.,]+')
+        splitter = re.compile(r'[\s.,?;!:]+')
         for line in text:
             words = splitter.split(line)
             for word in words:
-                yield word
+                yield word.lower()
 
 
 def count_words(fn):

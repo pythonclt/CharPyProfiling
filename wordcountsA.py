@@ -7,9 +7,9 @@ import re
 def word_gen(fn):
     with open(fn, 'rb') as text:
         for line in text:
-            words = re.split(r'[\s.,]+', line)
+            words = re.split(r'[\s.,?;!]+', line)
             for word in words:
-                yield word
+                yield word.lower()
 
 
 def count_words(fn):

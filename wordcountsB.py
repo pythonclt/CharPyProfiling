@@ -9,8 +9,8 @@ def count_words(fn):
     counts = Counter()
     with open(fn, 'rb') as text:
         for line in text:
-            words = re.split(r'[\s.,]+', line)
-            counts.update([x for x in words if x != ''])
+            words = re.split(r'[\s.,?;!]+', line)
+            counts.update([x.lower() for x in words if x != ''])
 
     return counts
 
