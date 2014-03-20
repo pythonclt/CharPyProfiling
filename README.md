@@ -31,6 +31,7 @@ find out where you need to focus your optimization efforts.
  * Don't do it if you don't need to.
  * Don't do it too early.
  * Be reasoned and deliberate, not arbitrary.
+ * Always verify.
 
 
 ---
@@ -113,7 +114,7 @@ percall
 
 ---
 
-# Visualizing Profiling
+# Visualizing a Profile
 
 A better option, especially when you're working with a more complex program, is to use a tool to visualize
 the program's profile. There are a few different tools you can use to do that, we're going to focus on
@@ -142,7 +143,7 @@ you can do, if anything, to speed things up. Here again, there are some tools to
   * Information
     * [Python Performance Tips](https://wiki.python.org/moin/PythonSpeed/PerformanceTips) (some of this is a bit crusty)
     * [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
-    * [BigO](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/) to help with time complexity.
+    * [BigO](http://science.slc.edu/~jmarshall/courses/2002/spring/cs50/BigO/) to help with understanding time complexity.
 
 
 ---
